@@ -1,0 +1,42 @@
+{
+  "customers.csv": {
+    "customer_id": "Unique synthetic customer identifier",
+    "age": "Customer age",
+    "gender": "Synthetic demographic category",
+    "city": "Customer city",
+    "occupation": "Primary occupation category",
+    "annual_income": "Synthetic annual income in INR",
+    "customer_since": "Synthetic relationship start date"
+  },
+  "accounts.csv": {
+    "account_id": "Unique synthetic account identifier",
+    "customer_id": "Foreign key to customers",
+    "account_type": "Account type",
+    "opening_date": "Account opening date",
+    "balance": "Synthetic account balance in INR",
+    "status": "Account status"
+  },
+  "transactions.csv": {
+    "transaction_id": "Unique synthetic transaction identifier",
+    "account_id": "Foreign key to accounts",
+    "customer_id": "Denormalized customer reference for analytics; derivable through accounts",
+    "transaction_date": "Transaction timestamp",
+    "transaction_type": "Debit or Credit",
+    "channel": "Transaction channel",
+    "amount": "Transaction amount in INR",
+    "merchant_category": "Transaction category",
+    "location": "Synthetic transaction location",
+    "status": "Transaction processing status"
+  },
+  "products.csv": {
+    "product_id": "Unique synthetic product identifier",
+    "product_name": "Synthetic banking product name",
+    "product_category": "Product category"
+  },
+  "customer_products.csv": {
+    "customer_id": "Foreign key to customers",
+    "product_id": "Foreign key to products",
+    "start_date": "Product relationship start date",
+    "status": "Product relationship status"
+  }
+}

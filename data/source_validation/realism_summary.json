@@ -1,0 +1,17 @@
+{
+  "customers_with_1_account_pct": 60.72,
+  "customers_with_2plus_accounts_pct": 39.28,
+  "customers_with_0_transactions": 150,
+  "median_transactions_per_active_customer": 21.0,
+  "p90_transactions_per_customer": 95.1,
+  "p99_transactions_per_customer": 312.0,
+  "median_income_inr": 539044.4,
+  "p90_income_inr": 1328308.83,
+  "p99_income_inr": 2845666.69,
+  "median_balance_inr": 117626.26,
+  "p90_balance_inr": 735714.53,
+  "p99_balance_inr": 2918477.58,
+  "median_transaction_inr": 1375.2,
+  "p90_transaction_inr": 12586.85,
+  "p99_transaction_inr": 94703.6
+}

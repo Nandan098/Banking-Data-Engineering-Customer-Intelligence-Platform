@@ -1,0 +1,13 @@
+product_id,product_name,product_category
+P001,Savings Account,Deposit
+P002,Current Account,Deposit
+P003,Salary Account,Deposit
+P004,Fixed Deposit,Investment
+P005,Recurring Deposit,Investment
+P006,Credit Card,Card
+P007,Debit Card,Card
+P008,Personal Loan,Loan
+P009,Home Loan,Loan
+P010,Auto Loan,Loan
+P011,Insurance,Insurance
+P012,Investment Account,Investment

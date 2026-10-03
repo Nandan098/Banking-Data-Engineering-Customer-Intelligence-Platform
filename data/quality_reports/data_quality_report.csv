@@ -1,0 +1,25 @@
+dataset,check,passed,issue_count,details,quality_score_pct
+customers,customer_id unique,True,0,duplicate rows=0,100.0
+customers,customer_id not null,True,0,null keys=0,100.0
+accounts,account_id unique,True,0,duplicate rows=0,100.0
+accounts,account_id not null,True,0,null keys=0,100.0
+transactions,transaction_id unique,True,0,duplicate rows=0,100.0
+transactions,transaction_id not null,True,0,null keys=0,100.0
+products,product_id unique,True,0,duplicate rows=0,100.0
+products,product_id not null,True,0,null keys=0,100.0
+customers,required fields populated,True,0,null cells=0,100.0
+accounts,required fields populated,True,0,null cells=0,100.0
+transactions,required fields populated,True,0,null cells=0,100.0
+products,required fields populated,True,0,null cells=0,100.0
+customer_products,required fields populated,True,0,null cells=0,100.0
+accounts,customer foreign keys valid,True,0,invalid customer references=0,100.0
+transactions,account foreign keys valid,True,0,invalid account references=0,100.0
+transactions,customer foreign keys valid,True,0,invalid customer references=0,100.0
+customer_products,customer foreign keys valid,True,0,invalid customer references=0,100.0
+customer_products,product foreign keys valid,True,0,invalid product references=0,100.0
+customers,age in domain,True,0,invalid ages=0,100.0
+customers,income positive,True,0,invalid incomes=0,100.0
+accounts,balance non-negative,True,0,negative/invalid balances=0,100.0
+transactions,amount positive,True,0,invalid amounts=0,100.0
+transactions,transaction after account opening,True,0,chronology violations=0,100.0
+transactions,account/customer relationship consistent,True,0,mismatched customer references=0,100.0

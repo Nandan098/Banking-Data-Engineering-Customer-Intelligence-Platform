@@ -1,0 +1,21 @@
+{
+  "customers": 5000,
+  "accounts": 7688,
+  "transactions": 200000,
+  "products": 12,
+  "customer_product_relationships": 16289,
+  "customers_with_multiple_accounts_pct": 39.28,
+  "customers_with_1_account_pct": 60.72,
+  "median_customer_income_inr": 539044.4,
+  "p90_customer_income_inr": 1328308.83,
+  "p99_customer_income_inr": 2845666.69,
+  "median_account_balance_inr": 117626.26,
+  "p90_account_balance_inr": 735714.53,
+  "p99_account_balance_inr": 2918477.58,
+  "median_transaction_amount_inr": 1375.2,
+  "p90_transaction_amount_inr": 12586.85,
+  "p99_transaction_amount_inr": 94703.6,
+  "median_transactions_per_customer": 21.0,
+  "p90_transactions_per_customer": 95.1,
+  "p99_transactions_per_customer": 312.0
+}

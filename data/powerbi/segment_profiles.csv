@@ -1,0 +1,4 @@
+cluster_id,customers,median_income,median_balance,median_transactions,median_transaction_value,median_products
+0,1148,527440.775,129050.285,4.0,8711.645,3.0
+1,1819,308828.48,78503.33,28.0,107259.42,3.0
+2,1877,875012.91,488594.45,31.0,269968.21,3.0

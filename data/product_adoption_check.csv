@@ -1,0 +1,13 @@
+product_id,customers,share_of_customers_pct,product_name,product_category
+P001,4744,94.88,Savings Account,Deposit
+P002,613,12.26,Current Account,Deposit
+P003,1935,38.7,Salary Account,Deposit
+P004,1040,20.8,Fixed Deposit,Investment
+P005,406,8.12,Recurring Deposit,Investment
+P006,1184,23.68,Credit Card,Card
+P007,3600,72.0,Debit Card,Card
+P008,659,13.18,Personal Loan,Loan
+P009,362,7.24,Home Loan,Loan
+P010,414,8.28,Auto Loan,Loan
+P011,767,15.340000000000002,Insurance,Insurance
+P012,565,11.3,Investment Account,Investment

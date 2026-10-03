@@ -1,0 +1,4 @@
+# Install Apache Airflow using the official version-specific constraints for your Python version.
+# Example (adjust AIRFLOW_VERSION and PYTHON_VERSION to your environment):
+# pip install "apache-airflow==2.10.5" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.10.5/constraints-3.11.txt"
+apache-airflow==2.10.5

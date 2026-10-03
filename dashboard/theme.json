@@ -1,0 +1,7 @@
+{
+  "name": "Banking Data Platform",
+  "dataColors": ["#1F4E78", "#5B9BD5", "#70AD47", "#ED7D31", "#A5A5A5", "#8064A2", "#FFC000"],
+  "background": "#FFFFFF",
+  "foreground": "#1F1F1F",
+  "tableAccent": "#1F4E78"
+}

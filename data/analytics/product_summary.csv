@@ -1,0 +1,13 @@
+product_id,active_customers,product_name,product_category
+P001,4161,Savings Account,Deposit
+P007,3193,Debit Card,Card
+P003,1692,Salary Account,Deposit
+P006,1024,Credit Card,Card
+P004,917,Fixed Deposit,Investment
+P011,668,Insurance,Insurance
+P008,558,Personal Loan,Loan
+P002,549,Current Account,Deposit
+P012,503,Investment Account,Investment
+P010,378,Auto Loan,Loan
+P005,353,Recurring Deposit,Investment
+P009,312,Home Loan,Loan

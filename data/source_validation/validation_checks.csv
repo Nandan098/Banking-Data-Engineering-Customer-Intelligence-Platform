@@ -1,0 +1,19 @@
+check,result,details
+Customers primary key unique,True,0 duplicate IDs
+Accounts primary key unique,True,0 duplicate IDs
+Transactions primary key unique,True,0 duplicate IDs
+Products primary key unique,True,0 duplicate IDs
+customers has no nulls,True,0 null cells
+accounts has no nulls,True,0 null cells
+transactions has no nulls,True,0 null cells
+products has no nulls,True,0 null cells
+customer_products has no nulls,True,0 null cells
+Account → customer integrity,True,0 invalid customer references
+Transaction → account integrity,True,0 invalid account references
+Transaction → customer integrity,True,0 invalid customer references
+Customer-product → customer integrity,True,0 invalid customer references
+Customer-product → product integrity,True,0 invalid product references
+Customer ages in expected range,True,0 invalid ages
+Customer income positive,True,0 non-positive incomes
+Account balances non-negative,True,0 negative balances
+Transaction amounts positive,True,0 non-positive amounts
